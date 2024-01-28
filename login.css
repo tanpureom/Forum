@@ -136,6 +136,10 @@ input {
 	right: 0;
 }
 
+.overlay-right p {
+	letter-spacing: 2px;
+}
+
 
 .social-container {
 	margin: 50px 0;
