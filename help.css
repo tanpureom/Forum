@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav bar styling */
+
+.nav {
+  height: 100px;
+  width: 100%;
+  background-color: #14213d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20%;
+}
+
+.left-nav i {
+  font-size: 2.2vw;
+  color: #fff;
+  margin: 0 1vw;
+}
+
+.left-nav h1 {
+  font-size: 2vw;
+  color: #fff;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.right-nav .links ul{
+  display: flex;
+  gap: 3vw;
+}
+
+.right-nav .links ul li {
+  list-style-type: none;
+}
+
+.right-nav .links ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.right-nav .btn {
+  margin: 0 2vw;
+}
+
+.right-nav .links ul i {
+  color: #fff;
+  display: none;
+}
+
+.right-nav .btn button {
+  margin: 1vw;
+  padding: .7vw 1.2vw;
+  background: rgba(255, 255, 255, .05);
+  border: 1px solid rgba(255, 255, 255, .3);
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1vw;
+}
+
+.heading-help2{
+  margin: 5vw 0 2vw 3vw;
+}
+
+.wrapper > h1 {
+  letter-spacing: 3px;
+}
+
+.accordion {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.accordion i {
+  font-size: 1.6rem;
+}
+
+.active,
+.accordion:hover {
+  background-color: #f1f7f5;
+}
+.pannel {
+  padding: 0 2rem 2.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  background-color: #f1f7f5;
+  display: none;
+}
+.pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  margin: 1vw 3vw;
+}
+.faq.active {
+  border: none;
+}
+
+.heading-help {
+  padding: 1vw 3vw;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  background-color: #fca311;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

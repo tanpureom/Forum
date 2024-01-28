@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ubuntu;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Wrapper class styling */
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Home Page styling */
+
+.contact {
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(contact.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-content {
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 70%;
+    height: 70%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.form-container form {
+    width: 80%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form h1 {
+    font-size: 3vw;
+    color: #fff;
+}
+form h4 {
+    color: #fff;
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+
+form .name #firstname,
+form .name #lastname,
+form .mail #email,
+form .mail #mobile {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    padding: 1vw 4vw;
+    margin: 0 1vw;
+}
+
+#firstname::placeholder,
+#lastname::placeholder,
+#email::placeholder,
+#mobile::placeholder {
+    font-size: 1.2vw;
+    color: #fff;
+    font-weight: 400;
+}
+
+.form-container form textarea {
+    padding: 3vw 8vw;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    overflow-y: hidden;
+}
+
+.form-container form textarea::placeholder {
+    color: #fff;
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+
+.form-container #button {
+    background: #fff;
+    color: #000;
+    border-radius: 2px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: .8vw 2vw;
+}

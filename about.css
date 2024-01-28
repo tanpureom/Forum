@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ubuntu;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Wrapper class styling */
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+/* about page styling */
+
+.about {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.about-content {
+    height: 180vh;
+    width: 100%;
+    padding: 0 3vw;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(about.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-heading {
+    height: 6%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    border-left: 2px solid #fca311;
+    margin: 1vw 0;
+}
+
+.about-content .about-heading h1 {
+   font-size: 2.8vw;
+   font-weight: 700;
+   color: #fca311;
+   font-family: cursive;
+}
+
+.content {
+    width: 80%;
+    height: fit-content;
+    margin: 2vw 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 2.5vw;
+    margin: 1vw 0;
+    font-weight: 500;
+}
+
+.content p {
+    font-size: 1.2vw;
+    color: #dadada;
+    font-weight: 300;
+    text-align: justify;
+    margin: 0.2vw 0;
+}
+
+.content p span {
+    font-weight: 500;
+}
+

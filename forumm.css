@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar styling */
+
+.nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    background: #14213d;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20%;
+}
+
+.left-nav i {
+    font-size: 2.2vw;
+    color: #fff;
+    margin: 0 1vw;
+}
+
+.left-nav h1 {
+    font-size: 2vw;
+    color: #fff;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+.right-nav .links ul{
+    display: flex;
+    gap: 3vw;
+}
+
+.right-nav .links ul li {
+    list-style-type: none;
+}
+
+.right-nav .links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+.right-nav .btn {
+    margin: 0 2vw;
+}
+
+.right-nav .links ul i {
+    color: #fff;
+    display: none;
+}
+
+.right-nav .btn button {
+    margin: 1vw;
+    padding: .7vw 1.2vw;
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .3);
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1vw;
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#left-panel, #right-panel {
+    flex: 1;
+}
+
+#searched-topics-list {
+    list-style: none;
+    padding: 0;
+}
+
+#searched-topics-list li {
+    margin-bottom: 10px;
+}
+
+#communication, #ask-question-box, #question-list {
+    margin-bottom: 20px;
+}
+
+#chat-box {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#message-input, #question-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#post-thread-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
+}
+
+#post-thread-box textarea {
+    padding: .5vw .5vw;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fca311;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin: 1vw 0;
+}
+
+#refresh-button {
+    background-color: #fca311;
+    margin-top: 10px;
+}
+
+
+body h2 {
+    margin: 1vw 0;
+}
